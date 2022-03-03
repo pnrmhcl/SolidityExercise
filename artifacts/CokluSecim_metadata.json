@@ -1,0 +1,142 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "_oyVerdiMi",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "_sandikOylari",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "pinar",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tayyip",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "sandikNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "oy",
+						"type": "bool"
+					}
+				],
+				"name": "pinarOyVer",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "sandikNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "oy",
+						"type": "bool"
+					}
+				],
+				"name": "tayyipOyVer",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SoliditySecim/CokluAdaySecimi.sol": "CokluSecim"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SoliditySecim/CokluAdaySecimi.sol": {
+			"keccak256": "0x9cb80f88544a8ef5421cef11f91cc4ba80fb5be3cc41b73f864e1d1bb06128a9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d3b0f3635baa61df548b0172834b30642fb7ad19d0289eb53aa717bff6da4b0c",
+				"dweb:/ipfs/QmRPufH7NiZgLbNRW3SXti3fZtD1wxWquv1w5tPJbJrzmG"
+			]
+		}
+	},
+	"version": 1
+}
