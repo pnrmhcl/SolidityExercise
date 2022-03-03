@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "months",
+						"type": "uint256"
+					}
+				],
+				"name": "getStage",
+				"outputs": [
+					{
+						"internalType": "enum Lifecycle.Stage",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SoliditySecim/life.sol": "Lifecycle"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SoliditySecim/life.sol": {
+			"keccak256": "0xa0cb4297c2d85f818bdb4709f0f96d8d94e03e77e9437a4a7ce81c9df73164d7",
+			"urls": [
+				"bzz-raw://daf462152cfb183224a0eddc9f6ec099d4d36d107d9fb7373bd670f2156b34e0",
+				"dweb:/ipfs/QmbCsXeM5QswUPKTjRSfLcnxtzbHUNFwAgPhRhmyiZrpnF"
+			]
+		}
+	},
+	"version": 1
+}
