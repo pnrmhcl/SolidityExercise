@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "_oyVerdiMi",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "_sandikOylari",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "evet",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "hayir",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "sandikNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "oy",
+						"type": "bool"
+					}
+				],
+				"name": "oyVer",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SoliditySecim/CokluSecim.sol": "CokluOylama"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SoliditySecim/CokluSecim.sol": {
+			"keccak256": "0x25016a81a30ffac2c1c484043935bc30613eaf9eafb6b5dc9532754277fa3873",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://866bbea28f7bdd7c898e61ce11e06e26c5122d391517891846a137a4982b3a39",
+				"dweb:/ipfs/QmPy4U5du4xeUU1YH7hzBRPEzZWjiH3Ar8sBqodhr8CdSP"
+			]
+		}
+	},
+	"version": 1
+}
